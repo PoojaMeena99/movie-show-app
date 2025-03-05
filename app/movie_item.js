@@ -1,17 +1,16 @@
-import React from 'react';
+import React from "react";
 
-function movie_item({ singleData, handleDataClick }) {
+function MovieItem({ singleData, handleDataClick }) {
   return (
-    <div className="col-4" onClick={() => handleDataClick(singleData.imdbID)} >
+    <div onClick={() => handleDataClick(singleData.imdbID)}>
       <div className="display-data">
-        <div className=''>
-          <img className="data-image" src={singleData.image} alt="" />
-        </div>
-        <div className="data-title">{singleData.title}</div>
-        <span>{singleData.released}</span>
-        <span>{singleData.imdbID}</span>
+        <img className="data-image" src={singleData.Poster} alt={singleData.Title} />
+        <h3 className="data-title">{singleData.Title}</h3>
+        <p>Released: {singleData.Released}</p>
+        <p>Genre: {singleData.Genre}</p>
       </div>
     </div>
   );
 }
-export default movie_item;
+
+export default MovieItem;
