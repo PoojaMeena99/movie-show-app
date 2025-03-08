@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { React, useState } from "react";
 import HardCodeData from "./movies_data";
 import Header from "./header.js";
 import Movie_panel from "./movie_panel";
@@ -7,9 +7,16 @@ import Movie_panel from "./movie_panel";
 function Page() {
   const [data, setData] = useState(HardCodeData);
 
-  const create_cards = (searchedFetchedData) => {
-    console.log(searchedFetchedData, "Received search data");
-    setData(searchedFetchedData);
+  const create_cards = (searchedFetchedData, inputSearch) => {
+    if (inputSearch.trim().length > 2) {
+      if (searchedFetchedData.length === 0) {
+        setData([{ message: "Movie is not found" }]); 
+      } else {
+        setData(searchedFetchedData);
+      }
+    } else {
+      setData(HardCodeData); 
+    }
   };
 
   return (
@@ -21,6 +28,3 @@ function Page() {
 }
 
 export default Page;
-
-
-

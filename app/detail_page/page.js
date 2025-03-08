@@ -1,67 +1,121 @@
-'use client';
 
-import React, { useEffect, useState } from 'react';
-import { useSearchParams } from 'next/navigation';
+"use client";
+import React, { useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import RatingCard from "../ratingCard";
+// import
 
-function Detail_page() {
-    const [detailsData, setDetailsData] = useState(null);
+function DetailPage() {
+    const [detailsData, setDetailsData] = useState();
     const [error, setError] = useState(null);
+    const [storedUpdatedRating, setStoredUpdatedRating] = useState({
+        totalRating: 0,
+        ratingCount: 0,
+    });
 
     const searchParams = useSearchParams();
-    const imdbID = searchParams.get('imdbID');
+    const imdbID = searchParams.get("imdbID");
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`https://www.omdbapi.com/?i=${imdbID}&apikey=7956112a`)
+                const response = await fetch(
+                    `https://www.omdbapi.com/?i=${imdbID}&apikey=7956112a`
+                );
                 const data = await response.json();
                 setDetailsData(data);
+
+                const storedData = localStorage.getItem(`rating-${imdbID}`);
+                if (storedData) {
+                    setStoredUpdatedRating(JSON.parse(storedData));
+                }
             } catch (error) {
                 setError(error.message);
             }
         };
+        if (imdbID) {
+            fetchData();
+        }
 
-        if (imdbID) fetchData();
     }, [imdbID]);
 
+    const handleRatingChange = (rating) => {
+        const updatedData = {
+            totalRating: storedUpdatedRating.totalRating + rating,
+            ratingCount: storedUpdatedRating.ratingCount + 1,
+        };
+        setStoredUpdatedRating(updatedData);
+        localStorage.setItem(`rating-${imdbID}`, JSON.stringify(updatedData));
+    };
+
     if (error) {
-        return <p style={{ color: 'red' }}>Error: {error}</p>;
+        return <p className="error-message">An error occurred: {error}</p>;
+    }
+    if (!detailsData) {
+        return <p className="loading-message">Data is still loading. Please wait...</p>;
     }
 
-    if (!detailsData) {
-        return <p>Loading...</p>;
-    }
+    const calculateAverageRating = () => {
+        return storedUpdatedRating.ratingCount > 0
+            ? (storedUpdatedRating.totalRating / storedUpdatedRating.ratingCount).toFixed(1)
+            : 0;
+    };
 
     return (
         <div className="container detailspage">
-            <div className="row">
-                <div className="col-4 detailspage-image">
+            <div className="row detailspage-row">
+                <div className="col-3 detailspage-image">
                     <img
+                        className="data-image"
                         src={detailsData.Poster}
                         alt={detailsData.Title}
-                        style={{ width: '100%', borderRadius: '8px' }}
                     />
+                     <p>
+                        <strong>Average Rating:</strong> <span className="rating_div">{calculateAverageRating()}&#9733;</span>
+                    </p>
+                     <RatingCard setSelectedRating={handleRatingChange} />
                 </div>
-                <div className="col-8 detailspage-details">
-                    <h1>{detailsData.Title}</h1>
-                    <p><strong>Year:</strong> {detailsData.Year}</p>
-                    <p><strong>Rated:</strong> {detailsData.Rated}</p>
-                    <p><strong>Released:</strong> {detailsData.Released}</p>
-                    <p><strong>Runtime:</strong> {detailsData.Runtime}</p>
-                    <p><strong>Genre:</strong> {detailsData.Genre}</p>
-                    <p><strong>Director:</strong> {detailsData.Director}</p>
-                    <p><strong>Writer:</strong> {detailsData.Writer}</p>
-                    <p><strong>Actors:</strong> {detailsData.Actors}</p>
-                    <p><strong>Plot:</strong> {detailsData.Plot}</p>
-                    <p><strong>Language:</strong> {detailsData.Language}</p>
-                    <p><strong>Country:</strong> {detailsData.Country}</p>
-                    <p><strong>Awards:</strong> {detailsData.Awards}</p>
-                    <p><strong>IMDB Rating:</strong> {detailsData.imdbRating}</p>
-                    <p><strong>Box Office:</strong> {detailsData.BoxOffice}</p>
+
+                <div className="col-7 detailspage-details">
+                    <h1 className="movie-title">{detailsData.Title}</h1>
+                    <p>
+                        <strong>Year:</strong> {detailsData.Year}
+                    </p>
+                    <p>
+                        <strong>Genre:</strong> {detailsData.Genre}
+                    </p>
+                    <p>
+                        <strong>Director:</strong> {detailsData.Director}
+                    </p>
+                    <p>
+                        <strong>Plot:</strong> {detailsData.Plot}
+                    </p>
+                    <p>
+                        <strong>Language:</strong> {detailsData.Language}
+                    </p>
+                    <p>
+                        <strong>Awards:</strong> {detailsData.Awards}
+                    </p>
+                    <p>
+                        <strong>Released:</strong> {detailsData.Released}
+                    </p>
+                    <p>
+                        <strong>Runtime:</strong> {detailsData.Runtime}
+                    </p>
+                    <p>
+                        <strong>Type:</strong> {detailsData.Type}
+                    </p>
+                    <p>
+                        <strong>imdb Rating:</strong> {detailsData.imdbRating}
+                    </p>
+        
+                    <a href="/" className="home-button">
+                    <button>Go Back →</button>
+                    </a>
                 </div>
             </div>
         </div>
     );
 }
 
-export default Detail_page;
+export default DetailPage;

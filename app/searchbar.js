@@ -3,21 +3,23 @@ import React, { useState } from "react";
 
 function Search_bar({ create_cards }) {
     const [inputSearch, setInputSearch] = useState("");
+    const [currentPage, setCurrentPage] = useState(1); // Current page track karo
 
-    const fetchSearchData = async (value) => {
+    const fetchSearchData = async (value, page = 2) => {
         try {
-            const response = await fetch(`https://www.omdbapi.com/?apikey=7956112a&s=${value}`);
+            // const response = await fetch(`https://www.omdbapi.com/?apikey=7956112a&s=${value}`);
+            const response = await fetch(`https://www.omdbapi.com/?apikey=7956112a&s=${value}&page=${page}`);
             const data = await response.json();
-            create_cards(data.Search || []);
+            create_cards((data.Search || []), value);
         } catch (error) {
-            console.error("Error fetching data:", error);
+            alert("Error fetching data. Please try again later.");
         }
     };
 
     const handleInputSearchChange = (e) => {
         const value = e.target.value;
+        fetchSearchData(value, currentPage);
         setInputSearch(value);
-        fetchSearchData(value);
     };
 
     return (
@@ -29,7 +31,7 @@ function Search_bar({ create_cards }) {
             />
             <input
                 className="input-box"
-                placeholder="search movie..."
+                placeholder="Search movie..."
                 type="text"
                 value={inputSearch}
                 onChange={handleInputSearchChange}
@@ -39,6 +41,12 @@ function Search_bar({ create_cards }) {
 }
 
 export default Search_bar;
+
+
+
+
+
+
 
 
 

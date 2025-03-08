@@ -1,18 +1,20 @@
-"use client";
-import React from "react";
 import MovieItem from "./movie_item";
 
 function MoviePanel({ data }) {
-  const handleDataClick = (imdbID) => {
-    console.log(`clicked This IMDb ID: ${imdbID}`);
-  };
-
+  if (data.length === 1 && data[0].message) {
+    return (
+      <div className="no-results">
+        <p>{data[0].message}</p>
+      </div>
+    );
+  }
+  
   return (
-    <div className="row">
+    <div className="row movie-penal-row">
       {data.map((dataItem) => (
-        <div className="col-4" key={dataItem.imdbID}>
+        <div className="col-4 movie-item-div" key={dataItem.imdbID}>
           <a href={`/detail_page?imdbID=${dataItem.imdbID}`}>
-            <MovieItem singleData={dataItem} handleDataClick={handleDataClick} />
+            <MovieItem singleData={dataItem} />
           </a>
         </div>
       ))}
@@ -21,6 +23,8 @@ function MoviePanel({ data }) {
 }
 
 export default MoviePanel;
+
+
 
 
 

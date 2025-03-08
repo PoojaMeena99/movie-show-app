@@ -34,6 +34,46 @@ const HardCodeData = [
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
+    },
+    {
+        "Title": "The Twilight Saga: New Moon",
+        "Year": "2009",
+        "Rated": "PG-13",
+        "Released": "20 Nov 2009",
+        "Runtime": "130 min",
+        "Genre": "Adventure, Drama, Fantasy",
+        "Director": "Chris Weitz",
+        "Writer": "Melissa Rosenberg, Stephenie Meyer",
+        "Actors": "Kristen Stewart, Robert Pattinson, Taylor Lautner",
+        "Plot": "After Edward leaves because of an incident involving Bella, Jacob Black becomes her best friend. But what Bella doesn't realize is that Jacob also has a secret that will change their lives suddenly.",
+        "Language": "English, Italian",
+        "Country": "United States",
+        "Awards": "23 wins & 24 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTI3MjE3NDIxNF5BMl5BanBnXkFtZTcwODM3NTY5Mg@@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "4.8/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "28%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "44/100"
+            }
+        ],
+        "Metascore": "44",
+        "imdbRating": "4.8",
+        "imdbVotes": "306,498",
+        "imdbID": "tt1259571",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$297,816,253",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
     }, {
         "Title": "Titanic",
         "Year": "1997",
@@ -74,6 +114,115 @@ const HardCodeData = [
         "Website": "N/A",
         "Response": "True"
     }, {
+        "Title": "Friends",
+        "Year": "1994–2004",
+        "Rated": "TV-14",
+        "Released": "22 Sep 1994",
+        "Runtime": "22 min",
+        "Genre": "Comedy, Romance",
+        "Director": "N/A",
+        "Writer": "David Crane, Marta Kauffman",
+        "Actors": "Jennifer Aniston, Courteney Cox, Lisa Kudrow",
+        "Plot": "Follows the personal and professional lives of six twenty to thirty year-old friends living in the Manhattan borough of New York City.",
+        "Language": "English, Spanish, Italian, French, Dutch, Hebrew",
+        "Country": "United States",
+        "Awards": "Won 6 Primetime Emmys. 79 wins & 231 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.9/10"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.9",
+        "imdbVotes": "1,122,459",
+        "imdbID": "tt0108778",
+        "Type": "series",
+        "totalSeasons": "10",
+        "Response": "True"
+    },
+    {
+        "Title": "The Pursuit of Happyness",
+        "Year": "2006",
+        "Rated": "PG-13",
+        "Released": "15 Dec 2006",
+        "Runtime": "117 min",
+        "Genre": "Biography, Drama",
+        "Director": "Gabriele Muccino",
+        "Writer": "Steve Conrad",
+        "Actors": "Will Smith, Thandiwe Newton, Jaden Smith",
+        "Plot": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career.",
+        "Language": "English, Cantonese",
+        "Country": "United States",
+        "Awards": "Nominated for 1 Oscar. 12 wins & 26 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.0/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "67%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "64/100"
+            }
+        ],
+        "Metascore": "64",
+        "imdbRating": "8.0",
+        "imdbVotes": "582,792",
+        "imdbID": "tt0454921",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$163,566,459",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "The Gorge",
+        "Year": "2025",
+        "Rated": "PG-13",
+        "Released": "14 Feb 2025",
+        "Runtime": "127 min",
+        "Genre": "Action, Adventure, Horror",
+        "Director": "Scott Derrickson",
+        "Writer": "Zach Dean",
+        "Actors": "Miles Teller, Anya Taylor-Joy, Sigourney Weaver",
+        "Plot": "Two highly-trained operatives become close after being sent to protect opposite sides of a mysterious gorge. When an evil emerges, they must work together to survive what lies within.",
+        "Language": "English, Lithuanian",
+        "Country": "United Kingdom, United States",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTQ5Y2QyYTktYmFmZi00NWJlLWE0MzgtYTA4M2I0ZjQwZjcxXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "6.8/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "64%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "57/100"
+            }
+        ],
+        "Metascore": "57",
+        "imdbRating": "6.8",
+        "imdbVotes": "40,555",
+        "imdbID": "tt13654226",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
         "Title": "Sanam Re",
         "Year": "2016",
         "Rated": "Not Rated",
@@ -104,7 +253,8 @@ const HardCodeData = [
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
-    }, {
+    },
+    {
         "Title": "Money Heist",
         "Year": "2017–2021",
         "Rated": "TV-MA",
@@ -133,7 +283,6 @@ const HardCodeData = [
         "totalSeasons": "5",
         "Response": "True"
     },
-
     {
         "Title": "Sanam Teri Kasam",
         "Year": "2016",
@@ -474,34 +623,6 @@ const HardCodeData = [
         "totalSeasons": "9",
         "Response": "True"
     },
-    {
-        "Title": "Friends",
-        "Year": "1994–2004",
-        "Rated": "TV-14",
-        "Released": "22 Sep 1994",
-        "Runtime": "22 min",
-        "Genre": "Comedy, Romance",
-        "Director": "N/A",
-        "Writer": "David Crane, Marta Kauffman",
-        "Actors": "Jennifer Aniston, Courteney Cox, Lisa Kudrow",
-        "Plot": "Follows the personal and professional lives of six twenty to thirty year-old friends living in the Manhattan borough of New York City.",
-        "Language": "English, Spanish, Italian, French, Dutch, Hebrew",
-        "Country": "United States",
-        "Awards": "Won 6 Primetime Emmys. 79 wins & 231 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_SX300.jpg",
-        "Ratings": [
-            {
-                "Source": "Internet Movie Database",
-                "Value": "8.9/10"
-            }
-        ],
-        "Metascore": "N/A",
-        "imdbRating": "8.9",
-        "imdbVotes": "1,122,459",
-        "imdbID": "tt0108778",
-        "Type": "series",
-        "totalSeasons": "10",
-        "Response": "True"
-    }
+
 ]
 export default HardCodeData;

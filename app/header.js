@@ -5,7 +5,7 @@ function Header({ create_cards }) {
   return (
     <div className='row header-row' >
       <div className='col-6 text'>
-        Movie App
+        Movie & Show App
       </div>
       <div className='col-6'>
         <Search_bar create_cards={create_cards} />
