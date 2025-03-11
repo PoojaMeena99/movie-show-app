@@ -1,9 +1,8 @@
-
 "use client";
+import Link from 'next/link';
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import RatingCard from "../ratingCard";
-// import
 
 function DetailPage() {
     const [detailsData, setDetailsData] = useState();
@@ -27,7 +26,9 @@ function DetailPage() {
 
                 const storedData = localStorage.getItem(`rating-${imdbID}`);
                 if (storedData) {
-                    setStoredUpdatedRating(JSON.parse(storedData));
+                    const parsedData = JSON.parse(storedData);
+
+                    setStoredUpdatedRating(parsedData);
                 }
             } catch (error) {
                 setError(error.message);
@@ -62,61 +63,60 @@ function DetailPage() {
     };
 
     return (
-        <Suspense fallback={<div>Loading...</div>}>
-            <div className="container detailspage">
-                <div className="row detailspage-row">
-                    <div className="col-3 detailspage-image">
-                        <img
-                            className="data-image"
-                            src={detailsData.Poster}
-                            alt={detailsData.Title}
-                        />
-                        <p>
-                            <strong>Average Rating:</strong> <span className="rating_div">{calculateAverageRating()}&#9733;</span>
-                        </p>
-                        <RatingCard setSelectedRating={handleRatingChange} />
-                    </div>
+        <div className="container detailspage">
+            <div className="row detailspage-row">
+                <div className="col-3 detailspage-image">
+                    <img
+                        className="data-image"
+                        src={detailsData.Poster}
+                        alt={detailsData.Title}
+                    />
+                    <p>
+                        <strong>Average Rating:</strong> <span className="rating_div">{calculateAverageRating()}&#9733;</span>
+                    </p>
+                    <RatingCard setSelectedRating={handleRatingChange} />
+                </div>
 
-                    <div className="col-7 detailspage-details">
-                        <h1 className="movie-title">{detailsData.Title}</h1>
-                        <p>
-                            <strong>Year:</strong> {detailsData.Year}
-                        </p>
-                        <p>
-                            <strong>Genre:</strong> {detailsData.Genre}
-                        </p>
-                        <p>
-                            <strong>Director:</strong> {detailsData.Director}
-                        </p>
-                        <p>
-                            <strong>Plot:</strong> {detailsData.Plot}
-                        </p>
-                        <p>
-                            <strong>Language:</strong> {detailsData.Language}
-                        </p>
-                        <p>
-                            <strong>Awards:</strong> {detailsData.Awards}
-                        </p>
-                        <p>
-                            <strong>Released:</strong> {detailsData.Released}
-                        </p>
-                        <p>
-                            <strong>Runtime:</strong> {detailsData.Runtime}
-                        </p>
-                        <p>
-                            <strong>Type:</strong> {detailsData.Type}
-                        </p>
-                        <p>
-                            <strong>imdb Rating:</strong> {detailsData.imdbRating}
-                        </p>
+                <div className="col-7 detailspage-details">
+                    <h1 className="movie-title">{detailsData.Title}</h1>
+                    <p>
+                        <strong>Year:</strong> {detailsData.Year}
+                    </p>
+                    <p>
+                        <strong>Genre:</strong> {detailsData.Genre}
+                    </p>
+                    <p>
+                        <strong>Director:</strong> {detailsData.Director}
+                    </p>
+                    <p>
+                        <strong>Plot:</strong> {detailsData.Plot}
+                    </p>
+                    <p>
+                        <strong>Language:</strong> {detailsData.Language}
+                    </p>
+                    <p>
+                        <strong>Awards:</strong> {detailsData.Awards}
+                    </p>
+                    <p>
+                        <strong>Released:</strong> {detailsData.Released}
+                    </p>
+                    <p>
+                        <strong>Runtime:</strong> {detailsData.Runtime}
+                    </p>
+                    <p>
+                        <strong>Type:</strong> {detailsData.Type}
+                    </p>
+                    <p>
+                        <strong>imdb Rating:</strong> {detailsData.imdbRating}
+                    </p>
 
-                        <a href="/" className="home-button">
-                            <button>Go Back →</button>
-                        </a>
-                    </div>
+                    <Link href="/" className="home-button">
+                        <button>Go Back →</button>
+                    </Link>
+
                 </div>
             </div>
-        </Suspense>
+        </div>
     );
 }
 

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import MovieItem from "./movie_item";
 
 function MoviePanel({ data }) {
@@ -8,14 +9,14 @@ function MoviePanel({ data }) {
       </div>
     );
   }
-  
+
   return (
     <div className="row movie-penal-row">
       {data.map((dataItem) => (
         <div className="col-4 movie-item-div" key={dataItem.imdbID}>
-          <a href={`/detail_page?imdbID=${dataItem.imdbID}`}>
+          <Link href={`/detail_page?imdbID=${dataItem.imdbID}`}>
             <MovieItem singleData={dataItem} />
-          </a>
+          </Link>
         </div>
       ))}
     </div>
@@ -23,6 +24,7 @@ function MoviePanel({ data }) {
 }
 
 export default MoviePanel;
+
 
 
 

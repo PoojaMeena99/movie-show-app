@@ -34,6 +34,84 @@ const HardCodeData = [
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
+    }, {
+        "Title": "Twilight",
+        "Year": "2008",
+        "Rated": "PG-13",
+        "Released": "21 Nov 2008",
+        "Runtime": "122 min",
+        "Genre": "Drama, Fantasy, Romance",
+        "Director": "Catherine Hardwicke",
+        "Writer": "Melissa Rosenberg, Stephenie Meyer",
+        "Actors": "Kristen Stewart, Robert Pattinson, Billy Burke",
+        "Plot": "When Bella Swan moves to a small town in the Pacific Northwest, she falls in love with Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire.",
+        "Language": "English",
+        "Country": "United States, United Kingdom",
+        "Awards": "34 wins & 16 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ2NzUxMTAxN15BMl5BanBnXkFtZTcwMzEyMTIwMg@@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "5.3/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "48%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "56/100"
+            }
+        ],
+        "Metascore": "56",
+        "imdbRating": "5.3",
+        "imdbVotes": "502,170",
+        "imdbID": "tt1099212",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$193,962,473",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    }, {
+        "Title": "The Pursuit of Happyness",
+        "Year": "2006",
+        "Rated": "PG-13",
+        "Released": "15 Dec 2006",
+        "Runtime": "117 min",
+        "Genre": "Biography, Drama",
+        "Director": "Gabriele Muccino",
+        "Writer": "Steve Conrad",
+        "Actors": "Will Smith, Thandiwe Newton, Jaden Smith",
+        "Plot": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career.",
+        "Language": "English, Cantonese",
+        "Country": "United States",
+        "Awards": "Nominated for 1 Oscar. 12 wins & 26 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.0/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "67%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "64/100"
+            }
+        ],
+        "Metascore": "64",
+        "imdbRating": "8.0",
+        "imdbVotes": "582,792",
+        "imdbID": "tt0454921",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$163,566,459",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
     },
     {
         "Title": "The Twilight Saga: New Moon",
@@ -140,46 +218,6 @@ const HardCodeData = [
         "imdbID": "tt0108778",
         "Type": "series",
         "totalSeasons": "10",
-        "Response": "True"
-    },
-    {
-        "Title": "The Pursuit of Happyness",
-        "Year": "2006",
-        "Rated": "PG-13",
-        "Released": "15 Dec 2006",
-        "Runtime": "117 min",
-        "Genre": "Biography, Drama",
-        "Director": "Gabriele Muccino",
-        "Writer": "Steve Conrad",
-        "Actors": "Will Smith, Thandiwe Newton, Jaden Smith",
-        "Plot": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career.",
-        "Language": "English, Cantonese",
-        "Country": "United States",
-        "Awards": "Nominated for 1 Oscar. 12 wins & 26 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_SX300.jpg",
-        "Ratings": [
-            {
-                "Source": "Internet Movie Database",
-                "Value": "8.0/10"
-            },
-            {
-                "Source": "Rotten Tomatoes",
-                "Value": "67%"
-            },
-            {
-                "Source": "Metacritic",
-                "Value": "64/100"
-            }
-        ],
-        "Metascore": "64",
-        "imdbRating": "8.0",
-        "imdbVotes": "582,792",
-        "imdbID": "tt0454921",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "$163,566,459",
-        "Production": "N/A",
-        "Website": "N/A",
         "Response": "True"
     },
     {
