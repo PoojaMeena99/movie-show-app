@@ -14,9 +14,10 @@ function MoviePanel({ data }) {
     <div className="row movie-penal-row">
       {data.map((dataItem) => (
         <div className="col-4 movie-item-div" key={dataItem.imdbID}>
-          <Link href={`/detail_page?imdbID=${dataItem.imdbID}`}>
+          <Link href={`/?imdbID=${dataItem.imdbID}`}>
             <MovieItem singleData={dataItem} />
           </Link>
+
         </div>
       ))}
     </div>

@@ -4,26 +4,25 @@ import HardCodeData from "./movies_data";
 import Header from "./header.js";
 import Movie_panel from "./movie_panel";
 import Pagination from './pagination';
+import DetailPage from './details_page';
+import { useSearchParams } from 'next/navigation';
 
 function Page() {
   const [data, setData] = useState(HardCodeData);
   const [currentPage, setCurrentPage] = useState(1);
+  const searchParams = useSearchParams();
+  const imdbID = searchParams.get("imdbID");
 
   const create_cards = (searchedFetchedData, inputSearch) => {
-    console.log("create_cards", searchedFetchedData, inputSearch);
-    if (inputSearch.trim().length >=3) {
+    if (inputSearch.trim().length >= 3) {
       if (searchedFetchedData.length === 0) {
         setData([{ message: "Movie is not found" }]);
-        console.log(inputSearch,"if daata is more then 2")
       } else {
         setData(searchedFetchedData);
-        console.log(inputSearch,"show search data")
       }
     } else {
-      setData([{ message: "Please enter a search term" }])
-      console.log(inputSearch,"show emplty Array")
+      setData(HardCodeData);
     }
-    console.log("create_cards")
   };
 
   const current_page_movies = data.slice((currentPage - 1) * 9, currentPage * 9);
@@ -44,18 +43,27 @@ function Page() {
   return (
     <div className="container">
       <Header create_cards={create_cards} />
-      <Movie_panel data={current_page_movies} />
-      <Pagination
-        handlePrevious={handlePrevious}
-        handleNext={handleNext}
-        currentPage={currentPage}
-        totalPages={totalPages}
-      />
+
+      {imdbID ? (
+        <DetailPage
+        />
+      ) : (
+        <>
+          <Movie_panel data={current_page_movies} />
+          <Pagination
+            handlePrevious={handlePrevious}
+            handleNext={handleNext}
+            currentPage={currentPage}
+            totalPages={totalPages}
+          />
+        </>
+      )}
     </div>
   );
 }
 
 export default Page;
+
 
 
 

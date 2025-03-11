@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 
 function Search_bar({ create_cards }) {
     const [inputSearch, setInputSearch] = useState("");
@@ -30,15 +30,15 @@ function Search_bar({ create_cards }) {
             }
         }
 
-        setAllSearchResults(temporaryData); // State update (async)
-        create_cards(temporaryData, value); // Data pass kiya gaya
+        setAllSearchResults(temporaryData);
+        create_cards(temporaryData, value);
     };
 
     const handleInputSearchChange = (e) => {
         const value = e.target.value;
-        setInputSearch(value); // State update (async)
-        setAllSearchResults([]); // Purana data clear karein
-        fetchAllData(value); // Fetch data
+        setInputSearch(value);
+        setAllSearchResults([]);
+        fetchAllData(value);
     };
 
     return (
