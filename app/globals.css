@@ -220,3 +220,19 @@ body {
   border-radius: 4px;
   transition: 0.2s, color 0.2s;
 }
+
+/* Pagination CSS*/
+
+.pagination{
+  background-color: #181818;
+}
+
+.pagination_div{
+  width: 300px;
+  margin: auto;
+  padding: 70px 0px 30px 0px;
+}
+
+.prev, .next{
+  margin: 20px;
+}
