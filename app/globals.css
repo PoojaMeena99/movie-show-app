@@ -53,7 +53,9 @@ body {
   transition: transform 0.3s, box-shadow 0.3s;
   margin: auto; /* for movie and tablet */
   margin-bottom: 50px;
+  cursor: pointer;
 }
+
 
 .movie-item-div:hover {
   transform: scale(1.05);
