@@ -1,14 +1,14 @@
 import React from 'react'
 import Search_bar from "./searchbar"
 
-function Header({ create_cards }) {
+function Header({ createCard }) {
   return (
     <div className='row header-row' >
       <div className='col-6 text'>
         Movie & Show App
       </div>
       <div className='col-6'>
-        <Search_bar create_cards={create_cards} />
+        <Search_bar createCard={createCard} />
       </div>
     </div>
 

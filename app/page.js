@@ -5,28 +5,32 @@ import Header from "./header.js";
 import Movie_panel from "./movie_panel";
 import Pagination from './pagination';
 import DetailPage from './details_page';
-import { useSearchParams } from 'next/navigation';
 
 function Page() {
   const [data, setData] = useState(HardCodeData);
   const [currentPage, setCurrentPage] = useState(1);
-  const searchParams = useSearchParams();
-  const imdbID = searchParams.get("imdbID");
+  const [checkMovieSerialId, setCheckMovieSerialId] = useState(null);
 
-  const create_cards = (searchedFetchedData, inputSearch) => {
-    if (inputSearch.trim().length >= 3) {
+  
+  function createCard(searchedFetchedData, inputSearch) {
+    if (inputSearch.trim().length >= 2) {
       if (searchedFetchedData.length === 0) {
-        setData([{ message: "Movie is not found" }]);
+        setData([{ message: "Movie/Serial is not found" }]);
       } else {
         setData(searchedFetchedData);
       }
     } else {
       setData(HardCodeData);
     }
+  }
+
+  const handleClickGetId = (movieSerialId) => {
+    setCheckMovieSerialId(movieSerialId);
   };
 
-  const current_page_movies = data.slice((currentPage - 1) * 9, currentPage * 9);
-  const totalPages = Math.ceil(data.length / 9);
+  let perPageData = 9;
+  const currentPageDisplay = data.slice((currentPage - 1) * perPageData, currentPage * perPageData);
+  const totalPages = Math.ceil(data.length / perPageData);
 
   const handlePrevious = function () {
     if (currentPage > 1) {
@@ -40,29 +44,39 @@ function Page() {
     }
   };
 
+  let componentRender;
+  if (checkMovieSerialId) {
+    componentRender = <DetailPage checkMovieSerialId={checkMovieSerialId} setCheckMovieSerialId={setCheckMovieSerialId} />;
+  } else {
+    componentRender = (
+      <>
+        <Movie_panel data={currentPageDisplay} handleClickGetId={handleClickGetId} />
+        <Pagination
+          handlePrevious={handlePrevious}
+          handleNext={handleNext}
+          currentPage={currentPage}
+          totalPages={totalPages}
+        />
+      </>
+    );
+  }
+
   return (
     <div className="container">
-      <Header create_cards={create_cards} />
-
-      {imdbID ? (
-        <DetailPage
-        />
-      ) : (
-        <>
-          <Movie_panel data={current_page_movies} />
-          <Pagination
-            handlePrevious={handlePrevious}
-            handleNext={handleNext}
-            currentPage={currentPage}
-            totalPages={totalPages}
-          />
-        </>
-      )}
+      <Header createCard={createCard} />
+      {componentRender}
     </div>
   );
 }
 
 export default Page;
+
+
+
+
+
+
+
 
 
 
@@ -87,13 +101,19 @@ export default Page;
 // import Header from "./header.js";
 // import Movie_panel from "./movie_panel";
 // import Pagination from './pagination';
+// import DetailPage from './details_page';
+// import { useSearchParams } from 'next/navigation';
 
 // function Page() {
 //   const [data, setData] = useState(HardCodeData);
 //   const [currentPage, setCurrentPage] = useState(1);
+  
+//   const searchParams = useSearchParams();
+//   const imdbID = searchParams.get("imdbID");
 
 //   const create_cards = (searchedFetchedData, inputSearch) => {
-//     if (inputSearch.trim().length > 2) {
+
+//     if (inputSearch.trim().length >= 2) {
 //       if (searchedFetchedData.length === 0) {
 //         setData([{ message: "Movie is not found" }]);
 //       } else {
@@ -103,8 +123,11 @@ export default Page;
 //       setData(HardCodeData);
 //     }
 //   };
-//   const current_page_movies = data.slice((currentPage - 1) * 9, currentPage * 9);
-//   const totalPages = Math.ceil(data.length / 9);
+
+//   let perPageData = 9
+
+//   const current_page_movies = data.slice((currentPage - 1) * perPageData, currentPage * perPageData);
+//   const totalPages = Math.ceil(data.length / perPageData);
 
 //   const handlePrevious = function () {
 //     if (currentPage > 1) {
@@ -117,20 +140,44 @@ export default Page;
 //       setCurrentPage(currentPage + 1);
 //     }
 //   };
-
-
-//   return (
-//     <div className="container">
-//       <Header create_cards={create_cards} />
-//       <Movie_panel data={ current_page_movies } />
-//       <Pagination
+//   let componentRender;
+//   if (imdbID) {
+//     componentRender = <DetailPage />;
+//   } else {
+//     componentRender = (
+//       <>
+//         <Movie_panel data={current_page_movies} />
+//         <Pagination
 //           handlePrevious={handlePrevious}
 //           handleNext={handleNext}
 //           currentPage={currentPage}
 //           totalPages={totalPages}
 //         />
+//       </>
+//     );
+//   }
+
+//   return (
+//     <div className="container">
+//       <Header create_cards={create_cards} />
+//       {componentRender}
 //     </div>
 //   );
 // }
 
 // export default Page;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
