@@ -101,15 +101,25 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
    - You can give rating.
 
 ## 5. Usage Examples  
-   - **Search by Type**  
-     [`https://www.omdbapi.com/?apikey=7956112a&type=${type}`](https://www.omdbapi.com/?apikey=7956112a&type=${type})  
+  
+  - **Search API Example**  
+    [https://www.omdbapi.com/?apikey=7956112a&s=Inception](https://www.omdbapi.com/?apikey=7956112a&s=Inception)  
+    *(Replace `Inception` with the search term, `1` with the page number, and `movie` with the desired type: movie, series, or episode.)*
+
+  - **Detail API Example**  
+    [https://www.omdbapi.com/?i=tt1375666&apikey=7956112a](https://www.omdbapi.com/?i=tt1375666&apikey=7956112a)  
+    *(Replace `tt1375666` with the IMDb ID of the movie or show to fetch detailed information.)*
+
+  - **Search by Type**  
+     [`https://www.omdbapi.com/?apikey=7956112a&s=Inception&type=${type}`](https://www.omdbapi.com/?apikey=7956112a&s=Inception&type=${type})  
      - Movies  
      - Episodes  
      - Series  
+
    - **Pagination Example**  
      [`https://www.omdbapi.com/?apikey=7956112a&page=${page}`](https://www.omdbapi.com/?apikey=7956112a&page=${page})  
-   - **Detailed Information Example**  
-     [`https://www.omdbapi.com/?i=${Id}&apikey=7956112a`](https://www.omdbapi.com/?i=${Id}&apikey=7956112a)  
+   -## Detailed Information Example  
+
 
 ## 6. Technologies Used  
    - React.js  
