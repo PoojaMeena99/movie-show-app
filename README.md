@@ -38,50 +38,57 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 
-
-
-
+<!-- INFORMATION RELATED TO THE PROJECT -->
 1. # Installation  
     - Clone the repository:  
-    - git clone git@github.com:PoojaMeena99/movie-show-app.git 
-    - cd imdb-movie-show-app  
-    - npm install 
-    - npm run dev 
+      [git clone git@github.com:PoojaMeena99/movie-show-app.git](git@github.com:PoojaMeena99/movie-show-app.git)
+    - Navigate into the project directory:  
+      `cd imdb-movie-show-app`  
+    - Install dependencies:  
+      `npm install`  
+    - Start the development server:  
+      `npm run dev`  
 
-2.  # Project Title 
+2. # Project Title  
     - IMDb Movie Show App  
 
-3. # Project Description 
-    This is a movie rating project where you can explore movies, search for ratings, and even give your own ratings. Pagination for handle multiple data, I built this using Next.js and React, along with the Bootstrap library for styling. The app is fully responsive and provides a user-friendly and smooth experience.
+3. # How to Use  
+    - The page will open with dummy data displayed.  
+    - When the user selects a type, enters text in the search input, and clicks the search button, the relevant data will be displayed.  
+    - If no type is selected, data for all types will be displayed based on the search input.  
 
-4. # Features 
-    API for Search -
-     `https://www.omdbapi.com/?apikey=7956112a&s=${value}&page=${page}&type=${type}` 
-    API for Title -
-     `https://www.omdbapi.com/?i=${Id}&apikey=7956112a`
+
+4. # Project Description  
+    This is a movie rating project where you can explore movies, search for ratings, and even give your own ratings. Pagination handles multiple data.  
+    Built using Next.js and React, along with the Bootstrap library for styling.  
+    The app is fully responsive and provides a user-friendly and smooth experience.
+
+5. # Features  
+    - **API for Search**  
+      [`https://www.omdbapi.com/?apikey=7956112a&s=${value}&page=${page}&type=${type}`](https://www.omdbapi.com/?apikey=7956112a&s=${value}&page=${page}&type=${type})  
+    - **API for Title**  
+      [`https://www.omdbapi.com/?i=${Id}&apikey=7956112a`](https://www.omdbapi.com/?i=${Id}&apikey=7956112a)  
     - Browse popular movies and shows.  
     - Search for movies by title.  
-        - `https://www.omdbapi.com/?apikey=7956112a&s=${value}`
-    - pagination - for handle more data.
-        - `https://www.omdbapi.com/?apikey=7956112a&page=${page}`
+      [`https://www.omdbapi.com/?apikey=7956112a&s=${value}`](https://www.omdbapi.com/?apikey=7956112a&s=${value})  
+    - Pagination for handling more data.  
+      [`https://www.omdbapi.com/?apikey=7956112a&page=${page}`](https://www.omdbapi.com/?apikey=7956112a&page=${page})  
     - View detailed information about each movie, including ratings and descriptions.  
-        - `https://www.omdbapi.com/?i=${Id}&apikey=7956112a`
-    - Responsive design for desktop and mobile users.  
+      [`https://www.omdbapi.com/?i=${Id}&apikey=7956112a`](https://www.omdbapi.com/?i=${Id}&apikey=7956112a)  
+    - Responsive design for desktop and mobile users.
 
-5. # Usage  
+6. # Usage  
     1. Use the search bar to find your favorite movies.  
-        - `https://www.omdbapi.com/?apikey=7956112a&type=${type}`
-            - Movies  
-            - Episodes  
-            - Series  
-    3. Click on a movie card to view detailed information.   
+       [`https://www.omdbapi.com/?apikey=7956112a&type=${type}`](https://www.omdbapi.com/?apikey=7956112a&type=${type})  
+        - Movies  
+        - Episodes  
+        - Series  
+    2. Click on a movie card to view detailed information.
 
-6. # Technologies Used  
-    - React.js 
-    - Next.js 
-    - CSS for styling   
-    - Bootstrap for responsive and modern styling
-    - Movie Database API (like TMDB or OMDb API) for data  
-    - Vercel for deployment (optional)  
-
-
+7. # Technologies Used  
+    - React.js  
+    - Next.js  
+    - CSS for styling  
+    - Bootstrap for responsive and modern styling  
+    - OMDb API for data  
+    - Vercel for deployment (optional)

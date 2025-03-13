@@ -114,6 +114,35 @@ const HardCodeData = [
         "Response": "True"
     },
     {
+        "Title": "When the Camellia Blooms",
+        "Year": "2019",
+        "Rated": "N/A",
+        "Released": "18 Sep 2019",
+        "Runtime": "30 min",
+        "Genre": "Comedy, Drama, Romance",
+        "Director": "N/A",
+        "Writer": "N/A",
+        "Actors": "Kong Hyo-jin, Kim Ji-seok, Ji E-Suu",
+        "Plot": "A love story of the single-parent Dongbaek, the owner of Camellia Bar among a small neighborhood, who is also being the next murder target of a serial killer case.",
+        "Language": "Korean",
+        "Country": "South Korea",
+        "Awards": "16 wins & 9 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYjU0MDU5Y2MtOGU4NC00NTIxLThjZGEtMDM2NDg3ODkwYmNiXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "7.9/10"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "7.9",
+        "imdbVotes": "3,380",
+        "imdbID": "tt10826064",
+        "Type": "series",
+        "totalSeasons": "1",
+        "Response": "True"
+    },
+    {
         "Title": "The Twilight Saga: New Moon",
         "Year": "2009",
         "Rated": "PG-13",
@@ -152,7 +181,8 @@ const HardCodeData = [
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
-    }, {
+    },
+    {
         "Title": "Titanic",
         "Year": "1997",
         "Rated": "PG-13",
@@ -221,6 +251,152 @@ const HardCodeData = [
         "Response": "True"
     },
     {
+        "Title": "Hospital Playlist",
+        "Year": "2020–2021",
+        "Rated": "TV-14",
+        "Released": "12 Mar 2020",
+        "Runtime": "30S min",
+        "Genre": "Comedy, Drama, Romance",
+        "Director": "N/A",
+        "Writer": "N/A",
+        "Actors": "Jo Jung-suk, Yoo Yeon-seok, Jung Kyung-ho",
+        "Plot": "Hospital Playlist tells the story of five doctors who have been friends since they entered medical school in 1999.",
+        "Language": "Korean",
+        "Country": "South Korea",
+        "Awards": "2 wins & 3 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZmZlMWY5MjktNDljMC00YmE1LTg0M2EtNDdhMjk0NGFiMDhhXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.7/10"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.7",
+        "imdbVotes": "8,288",
+        "imdbID": "tt11769304",
+        "Type": "series",
+        "totalSeasons": "2",
+        "Response": "True"
+    }, {
+        "Title": "Stranger Things",
+        "Year": "2016–2025",
+        "Rated": "TV-14",
+        "Released": "15 Jul 2016",
+        "Runtime": "51 min",
+        "Genre": "Drama, Fantasy, Horror",
+        "Director": "N/A",
+        "Writer": "Matt Duffer, Ross Duffer",
+        "Actors": "Millie Bobby Brown, Finn Wolfhard, Winona Ryder",
+        "Plot": "In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "Won 12 Primetime Emmys. 114 wins & 323 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjE2N2MyMzEtNmU5NS00OTI0LTlkNTMtMWM1YWYyNmU4NmY0XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.7/10"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.7",
+        "imdbVotes": "1,419,364",
+        "imdbID": "tt4574334",
+        "Type": "series",
+        "totalSeasons": "5",
+        "Response": "True"
+    },
+    {
+        "Title": "Crash Landing on You",
+        "Year": "2019–2020",
+        "Rated": "TV-14",
+        "Released": "14 Dec 2019",
+        "Runtime": "70 min",
+        "Genre": "Adventure, Comedy, Drama",
+        "Director": "N/A",
+        "Writer": "N/A",
+        "Actors": "Hyun Bin, Son Ye-jin, Seo Ji-hye",
+        "Plot": "The absolute top secret love story of a chaebol heiress who made an emergency landing in North Korea because of a paragliding accident and a North Korean special officer who falls in love with her and who is hiding and protecting ...",
+        "Language": "Korean",
+        "Country": "South Korea",
+        "Awards": "4 wins & 9 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZjM3ZGQ4ZTMtOTNjMS00NmJlLTljMWUtNWExMzJhMGJlMWNiXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.7/10"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.7",
+        "imdbVotes": "47,924",
+        "imdbID": "tt10850932",
+        "Type": "series",
+        "totalSeasons": "1",
+        "Response": "True"
+    }, {
+        "Title": "Goblin",
+        "Year": "2010",
+        "Rated": "TV-14",
+        "Released": "17 Jul 2010",
+        "Runtime": "92 min",
+        "Genre": "Fantasy, Horror",
+        "Director": "Jeffery Scott Lando",
+        "Writer": "Raul Inglis",
+        "Actors": "Gil Bellows, Tracy Spiridakos, Camille Sullivan",
+        "Plot": "Every Halloween, a small hamlet in the deep woods is visited by a fierce goblin, intent on capturing infants and brutally murdering anyone in its path.",
+        "Language": "English",
+        "Country": "Canada",
+        "Awards": "1 nomination",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTMxMDIzMjQ1Nl5BMl5BanBnXkFtZTcwMjM2OTEzNQ@@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "4.0/10"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "4.0",
+        "imdbVotes": "1,451",
+        "imdbID": "tt1512310",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "The Crown",
+        "Year": "2016–2023",
+        "Rated": "TV-MA",
+        "Released": "04 Nov 2016",
+        "Runtime": "58 min",
+        "Genre": "Biography, Drama, History",
+        "Director": "N/A",
+        "Writer": "Peter Morgan",
+        "Actors": "Claire Foy, Olivia Colman, Imelda Staunton",
+        "Plot": "Follows the political rivalries and romances of Queen Elizabeth II's reign and the events that shaped Britain for the second half of the 20th century.",
+        "Language": "English",
+        "Country": "United Kingdom, United States",
+        "Awards": "Won 24 Primetime Emmys. 170 wins & 451 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BODcyODZlZDMtZGE0Ni00NjBhLWJlYTAtZDdlNWY3MzkwMGVhXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.6/10"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.6",
+        "imdbVotes": "268,075",
+        "imdbID": "tt4786824",
+        "Type": "series",
+        "totalSeasons": "6",
+        "Response": "True"
+    },
+    {
         "Title": "The Gorge",
         "Year": "2025",
         "Rated": "PG-13",
@@ -256,6 +432,269 @@ const HardCodeData = [
         "Type": "movie",
         "DVD": "N/A",
         "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    }, {
+        "Title": "Inception",
+        "Year": "2010",
+        "Rated": "PG-13",
+        "Released": "16 Jul 2010",
+        "Runtime": "148 min",
+        "Genre": "Action, Adventure, Sci-Fi",
+        "Director": "Christopher Nolan",
+        "Writer": "Christopher Nolan",
+        "Actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page",
+        "Plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+        "Language": "English, Japanese, French",
+        "Country": "United States, United Kingdom",
+        "Awards": "Won 4 Oscars. 159 wins & 220 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.8/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "87%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "74/100"
+            }
+        ],
+        "Metascore": "74",
+        "imdbRating": "8.8",
+        "imdbVotes": "2,658,716",
+        "imdbID": "tt1375666",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$292,587,330",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    }, {
+        "Title": "Vincenzo",
+        "Year": "2021",
+        "Rated": "Not Rated",
+        "Released": "20 Feb 2021",
+        "Runtime": "52S min",
+        "Genre": "Action, Comedy, Crime",
+        "Director": "N/A",
+        "Writer": "N/A",
+        "Actors": "Song Joong-ki, Jeon Yeo-been, Taecyeon",
+        "Plot": "During a visit to his motherland, a Korean-Italian Mafia lawyer gives an unrivaled conglomerate a taste of its own medicine with a side of justice.",
+        "Language": "Korean",
+        "Country": "South Korea",
+        "Awards": "1 win & 2 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNjA1YmJiNTMtMDc4OC00ZjlkLTgyMjctYzRmMWJhMmZhMjkyXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.4/10"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.4",
+        "imdbVotes": "32,524",
+        "imdbID": "tt13433812",
+        "Type": "series",
+        "totalSeasons": "1",
+        "Response": "True"
+    },
+    {
+        "Title": "The Shawshank Redemption",
+        "Year": "1994",
+        "Rated": "R",
+        "Released": "14 Oct 1994",
+        "Runtime": "142 min",
+        "Genre": "Drama",
+        "Director": "Frank Darabont",
+        "Writer": "Stephen King, Frank Darabont",
+        "Actors": "Tim Robbins, Morgan Freeman, Bob Gunton",
+        "Plot": "A banker convicted of uxoricide forms a friendship over a quarter century with a hardened convict, while maintaining his innocence and trying to remain hopeful through simple compassion.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "Nominated for 7 Oscars. 21 wins & 42 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "9.3/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "89%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "82/100"
+            }
+        ],
+        "Metascore": "82",
+        "imdbRating": "9.3",
+        "imdbVotes": "3,015,278",
+        "imdbID": "tt0111161",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$28,767,189",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "Harry Potter and the Chamber of Secrets",
+        "Year": "2002",
+        "Rated": "PG",
+        "Released": "15 Nov 2002",
+        "Runtime": "161 min",
+        "Genre": "Adventure, Family, Fantasy",
+        "Director": "Chris Columbus",
+        "Writer": "J.K. Rowling, Steve Kloves",
+        "Actors": "Daniel Radcliffe, Rupert Grint, Emma Watson",
+        "Plot": "Harry Potter lives his second year at Hogwarts with Ron and Hermione when a message on the wall announces that the legendary Chamber of Secrets has been opened. The trio soon realize that, to save the school, it will take a lot of...",
+        "Language": "English, Latin",
+        "Country": "United Kingdom, United States",
+        "Awards": "Won 1 BAFTA Award14 wins & 50 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNGJhM2M2MWYtZjIzMC00MDZmLThkY2EtOWViMDhhYjRhMzk4XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "7.4/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "82%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "63/100"
+            }
+        ],
+        "Metascore": "63",
+        "imdbRating": "7.4",
+        "imdbVotes": "719,337",
+        "imdbID": "tt0295297",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$262,641,637",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "Forrest Gump",
+        "Year": "1994",
+        "Rated": "PG-13",
+        "Released": "06 Jul 1994",
+        "Runtime": "142 min",
+        "Genre": "Drama, Romance",
+        "Director": "Robert Zemeckis",
+        "Writer": "Winston Groom, Eric Roth",
+        "Actors": "Tom Hanks, Robin Wright, Gary Sinise",
+        "Plot": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "Won 6 Oscars. 51 wins & 74 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.8/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "75%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "82/100"
+            }
+        ],
+        "Metascore": "82",
+        "imdbRating": "8.8",
+        "imdbVotes": "2,342,884",
+        "imdbID": "tt0109830",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$330,455,270",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "Sholay",
+        "Year": "1975",
+        "Rated": "Not Rated",
+        "Released": "15 Aug 1975",
+        "Runtime": "162 min",
+        "Genre": "Action, Adventure, Comedy",
+        "Director": "Ramesh Sippy",
+        "Writer": "Javed Akhtar, Salim Khan",
+        "Actors": "Sanjeev Kumar, Dharmendra, Amitabh Bachchan",
+        "Plot": "After his family is murdered by a notorious and ruthless bandit, a former police officer enlists the services of two outlaws to capture the bandit.",
+        "Language": "Hindi",
+        "Country": "India",
+        "Awards": "5 wins & 5 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMDNjZTE2ZWItZDZmOC00Y2UzLWI0NzctZGFmYzkzODllNjQ3XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.1/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "94%"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.1",
+        "imdbVotes": "59,826",
+        "imdbID": "tt0073707",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "Title": "The Godfather",
+        "Year": "1972",
+        "Rated": "R",
+        "Released": "24 Mar 1972",
+        "Runtime": "175 min",
+        "Genre": "Crime, Drama",
+        "Director": "Francis Ford Coppola",
+        "Writer": "Mario Puzo, Francis Ford Coppola",
+        "Actors": "Marlon Brando, Al Pacino, James Caan",
+        "Plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "Language": "English, Italian, Latin",
+        "Country": "United States",
+        "Awards": "Won 3 Oscars. 31 wins & 31 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "9.2/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "97%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "100/100"
+            }
+        ],
+        "Metascore": "100",
+        "imdbRating": "9.2",
+        "imdbVotes": "2,090,520",
+        "imdbID": "tt0068646",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$136,381,073",
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
@@ -353,6 +792,422 @@ const HardCodeData = [
         "Type": "movie",
         "DVD": "N/A",
         "BoxOffice": "$22,121",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    }, {
+        "Title": "Breaking Bad",
+        "Year": "2008–2013",
+        "Rated": "TV-MA",
+        "Released": "20 Jan 2008",
+        "Runtime": "49 min",
+        "Genre": "Crime, Drama, Thriller",
+        "Director": "N/A",
+        "Writer": "Vince Gilligan",
+        "Actors": "Bryan Cranston, Aaron Paul, Anna Gunn",
+        "Plot": "A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student to secure his family's future.",
+        "Language": "English, Spanish",
+        "Country": "United States",
+        "Awards": "Won 16 Primetime Emmys. 169 wins & 269 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "9.5/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "96%"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "9.5",
+        "imdbVotes": "2,283,453",
+        "imdbID": "tt0903747",
+        "Type": "series",
+        "totalSeasons": "5",
+        "Response": "True"
+    }, {
+        "Title": "Itaewon Class",
+        "Year": "2020",
+        "Rated": "TV-MA",
+        "Released": "31 Jan 2020",
+        "Runtime": "N/A",
+        "Genre": "Drama, Romance",
+        "Director": "N/A",
+        "Writer": "Gwang Jin",
+        "Actors": "Park Seo-joon, Kim Da-mi, Yoo Jae-myung",
+        "Plot": "An ex-con opens a street bar in Itaewon, while also seeking revenge on the family who was responsible for his father's death.",
+        "Language": "Korean",
+        "Country": "South Korea",
+        "Awards": "2 wins & 5 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BODEyZmVlMWEtYjNmNS00MTQ5LThlMzgtZjM4YjNhMGVkZWI4XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.2/10"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.2",
+        "imdbVotes": "21,813",
+        "imdbID": "tt11239552",
+        "Type": "series",
+        "totalSeasons": "1",
+        "Response": "True"
+    }, {
+        "Title": "Descendants of the Sun",
+        "Year": "2016",
+        "Rated": "TV-14",
+        "Released": "08 Apr 2016",
+        "Runtime": "1 min",
+        "Genre": "Action, Comedy, Drama",
+        "Director": "N/A",
+        "Writer": "N/A",
+        "Actors": "Song Joong-ki, Song Hye-kyo, Jin Goo",
+        "Plot": "This drama tells of the love story that develops between a surgeon and a special forces officer.",
+        "Language": "Korean",
+        "Country": "South Korea",
+        "Awards": "19 wins & 19 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYTQ3MWI2MjEtM2Q3NS00YjU4LWFkZGItNDA0OTc2NjcwZWY3XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.2/10"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.2",
+        "imdbVotes": "24,111",
+        "imdbID": "tt4925000",
+        "Type": "series",
+        "totalSeasons": "1",
+        "Response": "True"
+    }, {
+        "Title": "Start-Up",
+        "Year": "2020",
+        "Rated": "TV-14",
+        "Released": "17 Oct 2020",
+        "Runtime": "33S min",
+        "Genre": "Comedy, Drama, Romance",
+        "Director": "N/A",
+        "Writer": "N/A",
+        "Actors": "Bae Suzy, Nam Joo-hyuk, Kim Seon-ho",
+        "Plot": "Young entrepreneurs aspiring to launch virtual dreams into reality compete for success and love in the cutthroat world of Korea's high-tech industry.",
+        "Language": "Korean",
+        "Country": "South Korea",
+        "Awards": "1 win & 1 nomination",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYTJiYmE0ZGItMmU1NS00NThhLWIzODEtZmJlYjBmMzcwNmY3XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.0/10"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.0",
+        "imdbVotes": "15,943",
+        "imdbID": "tt12867810",
+        "Type": "series",
+        "totalSeasons": "1",
+        "Response": "True"
+    }, {
+        "Title": "The Heirs",
+        "Year": "2015",
+        "Rated": "N/A",
+        "Released": "04 Oct 2017",
+        "Runtime": "72 min",
+        "Genre": "Drama",
+        "Director": "Jorge Hernandez Aldana",
+        "Writer": "Jorge Hernandez Aldana, Gabriel Nuncio",
+        "Actors": "Máximo Hollander, Sebastián Aguirre, Úrsula Pruneda",
+        "Plot": "Teenagers' leisure at full swing: a group of friends spend their holidays at parties, having sex, boozing, and partaking in any adventure that brings them a boost of adrenaline. As they use violence for entertainment and to fulfil...",
+        "Language": "Spanish",
+        "Country": "Mexico",
+        "Awards": "1 nomination",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNDg2YjljZjItNmI5My00M2MwLTg0MDEtNGE1NWVhMWI3ODdhXkEyXkFqcGdeQXVyMjQ3NzUxOTM@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "5.8/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "67%"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "5.8",
+        "imdbVotes": "243",
+        "imdbID": "tt2903370",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    }, {
+        "Title": "Hospital Playlist",
+        "Year": "2020–2021",
+        "Rated": "TV-14",
+        "Released": "12 Mar 2020",
+        "Runtime": "30S min",
+        "Genre": "Comedy, Drama, Romance",
+        "Director": "N/A",
+        "Writer": "N/A",
+        "Actors": "Jo Jung-suk, Yoo Yeon-seok, Jung Kyung-ho",
+        "Plot": "Hospital Playlist tells the story of five doctors who have been friends since they entered medical school in 1999.",
+        "Language": "Korean",
+        "Country": "South Korea",
+        "Awards": "2 wins & 3 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZmZlMWY5MjktNDljMC00YmE1LTg0M2EtNDdhMjk0NGFiMDhhXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.7/10"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.7",
+        "imdbVotes": "8,288",
+        "imdbID": "tt11769304",
+        "Type": "series",
+        "totalSeasons": "2",
+        "Response": "True"
+    }, {
+        "Title": "My Love from the Star",
+        "Year": "2017",
+        "Rated": "TV-14",
+        "Released": "29 May 2017",
+        "Runtime": "N/A",
+        "Genre": "Comedy, Drama, Fantasy",
+        "Director": "N/A",
+        "Writer": "N/A",
+        "Actors": "Jennylyn Mercado, Gil Cuerva, Gabby Eigenmann",
+        "Plot": "Matteo Domingo (Gil Cuerva) is an extraterrestrial being that disembarked on the Philippines back in the 16th century during the Spanish Colonial Era. As he ventures to aid a teenage girl, Marcella (Pauline Mendoza), from falling ...",
+        "Language": "Filipino, Tagalog",
+        "Country": "Philippines",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNTYxNzZlYmMtMmU2OC00MjllLWIzNjktNjRjN2ZiNzhhYjQ1XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "7.2/10"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "7.2",
+        "imdbVotes": "77",
+        "imdbID": "tt6932632",
+        "Type": "series",
+        "totalSeasons": "1",
+        "Response": "True"
+    },
+    {
+        "Title": "3 Idiots",
+        "Year": "2009",
+        "Rated": "PG-13",
+        "Released": "25 Dec 2009",
+        "Runtime": "170 min",
+        "Genre": "Comedy, Drama",
+        "Director": "Rajkumar Hirani",
+        "Writer": "Abhijat Joshi, Rajkumar Hirani, Vidhu Vinod Chopra",
+        "Actors": "Aamir Khan, Madhavan, Mona Singh",
+        "Plot": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them \"idiots\".",
+        "Language": "Hindi, English",
+        "Country": "India",
+        "Awards": "64 wins & 30 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNzc4ZWQ3NmYtODE0Ny00YTQ4LTlkZWItNTBkMGQ0MmUwMmJlXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.4/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "100%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "67/100"
+            }
+        ],
+        "Metascore": "67",
+        "imdbRating": "8.4",
+        "imdbVotes": "447,504",
+        "imdbID": "tt1187043",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$6,532,874",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    }, {
+        "Title": "Dangal",
+        "Year": "2016",
+        "Rated": "Not Rated",
+        "Released": "21 Dec 2016",
+        "Runtime": "161 min",
+        "Genre": "Action, Biography, Drama",
+        "Director": "Nitesh Tiwari",
+        "Writer": "Piyush Gupta, Shreyas Jain, Nikhil Mehrotra",
+        "Actors": "Aamir Khan, Sakshi Tanwar, Fatima Sana Shaikh",
+        "Plot": "Mahavir Singh Phogat, a former wrestler, decides to fulfill his dream of winning a gold medal for his country by training his daughters for the Commonwealth Games despite the existing social stigmas.",
+        "Language": "Hindi, English",
+        "Country": "India, United States",
+        "Awards": "41 wins & 38 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.3/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "89%"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.3",
+        "imdbVotes": "220,511",
+        "imdbID": "tt5074352",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$12,391,761",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    }, {
+        "Title": "Lagaan: Once Upon a Time in India",
+        "Year": "2001",
+        "Rated": "PG",
+        "Released": "15 Jun 2001",
+        "Runtime": "224 min",
+        "Genre": "Drama, Musical, Sport",
+        "Director": "Ashutosh Gowariker",
+        "Writer": "Ashutosh Gowariker, Kumar Dave, Sanjay Dayma",
+        "Actors": "Aamir Khan, Raghubir Yadav, Gracy Singh",
+        "Plot": "The people of a small village in Victorian India stake their future on a game of cricket against their ruthless British rulers.",
+        "Language": "Hindi, English",
+        "Country": "India, United States",
+        "Awards": "Nominated for 1 Oscar. 54 wins & 22 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BM2FmODM4OTktOTRjOS00ZTIzLWIzZjAtMDBhOGEzYThkNzMzXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.1/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "95%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "84/100"
+            }
+        ],
+        "Metascore": "84",
+        "imdbRating": "8.1",
+        "imdbVotes": "122,152",
+        "imdbID": "tt0169102",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$909,043",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    }, {
+        "Title": "The Mandalorian",
+        "Year": "2019–",
+        "Rated": "TV-14",
+        "Released": "12 Nov 2019",
+        "Runtime": "40 min",
+        "Genre": "Action, Adventure, Fantasy",
+        "Director": "N/A",
+        "Writer": "Jon Favreau",
+        "Actors": "Pedro Pascal, Chris Bartlett, Katee Sackhoff",
+        "Plot": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "Won 15 Primetime Emmys. 62 wins & 162 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNjgxZGM0OWUtZGY1MS00MWRmLTk2N2ItYjQyZTI1OThlZDliXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.6/10"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.6",
+        "imdbVotes": "613,740",
+        "imdbID": "tt8111088",
+        "Type": "series",
+        "totalSeasons": "3",
+        "Response": "True"
+    }, {
+        "Title": "Our Planet",
+        "Year": "2019–2023",
+        "Rated": "TV-PG",
+        "Released": "05 Apr 2019",
+        "Runtime": "403 min",
+        "Genre": "Documentary",
+        "Director": "N/A",
+        "Writer": "N/A",
+        "Actors": "David Attenborough, Israfeel Ahamed",
+        "Plot": "Explores and unravels the mystery of how and why animals migrate, showing some of the most dramatic and compelling stories in the natural world through spectacular and innovative cinematography.",
+        "Language": "English",
+        "Country": "United States, United Kingdom",
+        "Awards": "Won 2 Primetime Emmys. 7 wins & 25 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZDE1NzlkNWMtNzFiMC00ZTgxLTgyMmItOTU5OGI2NWQ4MDMxXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "9.2/10"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "9.2",
+        "imdbVotes": "55,324",
+        "imdbID": "tt9253866",
+        "Type": "series",
+        "totalSeasons": "2",
+        "Response": "True"
+    }, {
+        "Title": "The Social Dilemma",
+        "Year": "2020",
+        "Rated": "PG-13",
+        "Released": "09 Sep 2020",
+        "Runtime": "94 min",
+        "Genre": "Documentary, Drama",
+        "Director": "Jeff Orlowski-Yang",
+        "Writer": "Vickie Curtis, Davis Coombe, Jeff Orlowski-Yang",
+        "Actors": "Tristan Harris, Jeff Seibert, Bailey Richardson",
+        "Plot": "Explores the dangerous human impact of social networking; tech experts sound the alarm on their own creations.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "Won 2 Primetime Emmys. 8 wins & 22 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNGQyY2E1M2EtZTkzNy00YjYyLWFjMGQtNTI1OGE4Yjc4MTZiXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "7.6/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "84%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "78/100"
+            }
+        ],
+        "Metascore": "78",
+        "imdbRating": "7.6",
+        "imdbVotes": "91,285",
+        "imdbID": "tt11464826",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
