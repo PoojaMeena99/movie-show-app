@@ -111,13 +111,18 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
     *(Replace `tt1375666` with the IMDb ID of the movie or show to fetch detailed information.)*
 
   - **Search by Type**  
-     [`https://www.omdbapi.com/?apikey=7956112a&s=Inception&type=${type}`](https://www.omdbapi.com/?apikey=7956112a&s=Inception&type=${type})  
-     - Movies  
-     - Episodes  
-     - Series  
+    - **Search API Example**  
+  [`https://www.omdbapi.com/?apikey=7956112a&s=Inception&type=movie`](https://www.omdbapi.com/?apikey=7956112a&s=Inception&type=movie)  
+  *(Replace `Inception` with the search term and `movie` with the desired type: movie, series, or episode.)*
 
-   - **Pagination Example**  
-     [`https://www.omdbapi.com/?apikey=7956112a&page=${page}`](https://www.omdbapi.com/?apikey=7956112a&page=${page})  
+   - Movies  
+   - Episodes  
+   - Series  
+
+- **Pagination Example**  
+  [`https://www.omdbapi.com/?apikey=7956112a&s=Inception&page=2`](https://www.omdbapi.com/?apikey=7956112a&s=Inception&page=2)  
+  *(Replace `Inception` with the search term and `2` with the desired page number.)*
+
    -## Detailed Information Example  
 
 
