@@ -38,57 +38,73 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 
+
+
+
 <!-- INFORMATION RELATED TO THE PROJECT -->
-1. # Installation  
-    - Clone the repository:  
-      [git clone git@github.com:PoojaMeena99/movie-show-app.git](git@github.com:PoojaMeena99/movie-show-app.git)
-    - Navigate into the project directory:  
-      `cd imdb-movie-show-app`  
-    - Install dependencies:  
-      `npm install`  
-    - Start the development server:  
-      `npm run dev`  
 
-2. # Project Title  
-    - IMDb Movie Show App  
+# IMDb Movie Show App  
 
-3. # How to Use  
-    - The page will open with dummy data displayed.  
-    - When the user selects a type, enters text in the search input, and clicks the search button, the relevant data will be displayed.  
-    - If no type is selected, data for all types will be displayed based on the search input.  
+## 1. Installation  
+   Follow these steps to set up the project:  
+   - Clone the repository:  
+     [git clone git@github.com:PoojaMeena99/movie-show-app.git](git@github.com:PoojaMeena99/movie-show-app.git)  
+   - Navigate into the project directory:  
+     `cd imdb-movie-show-app`  
+   - Install dependencies:  
+     `npm install`  
+   - Start the development server:  
+     `npm run dev`  
 
+## 2. Project Description  
+   This is a movie rating application where you can:  
+   - Explore movies and TV shows.  
+   - Search for ratings.  
+   - Provide your own ratings.  
 
-4. # Project Description  
-    This is a movie rating project where you can explore movies, search for ratings, and even give your own ratings. Pagination handles multiple data.  
-    Built using Next.js and React, along with the Bootstrap library for styling.  
-    The app is fully responsive and provides a user-friendly and smooth experience.
+   The app features pagination to handle multiple data points and is built with Next.js and React.js.  
+   Styling is handled using Bootstrap, ensuring a responsive and user-friendly experience.
 
-5. # Features  
-    - **API for Search**  
-      [`https://www.omdbapi.com/?apikey=7956112a&s=${value}&page=${page}&type=${type}`](https://www.omdbapi.com/?apikey=7956112a&s=${value}&page=${page}&type=${type})  
-    - **API for Title**  
-      [`https://www.omdbapi.com/?i=${Id}&apikey=7956112a`](https://www.omdbapi.com/?i=${Id}&apikey=7956112a)  
-    - Browse popular movies and shows.  
-    - Search for movies by title.  
-      [`https://www.omdbapi.com/?apikey=7956112a&s=${value}`](https://www.omdbapi.com/?apikey=7956112a&s=${value})  
-    - Pagination for handling more data.  
-      [`https://www.omdbapi.com/?apikey=7956112a&page=${page}`](https://www.omdbapi.com/?apikey=7956112a&page=${page})  
-    - View detailed information about each movie, including ratings and descriptions.  
-      [`https://www.omdbapi.com/?i=${Id}&apikey=7956112a`](https://www.omdbapi.com/?i=${Id}&apikey=7956112a)  
-    - Responsive design for desktop and mobile users.
+## 3. Features  
+   - **API for Search**  
+     [`https://www.omdbapi.com/?apikey=7956112a&s=${value}&page=${page}&type=${type}`](https://www.omdbapi.com/?apikey=7956112a&s=${value}&page=${page}&type=${type})  
+   - **API for Title**  
+     [`https://www.omdbapi.com/?i=${Id}&apikey=7956112a`](https://www.omdbapi.com/?i=${Id}&apikey=7956112a)  
+   - Browse popular movies and shows.  
+   - Search for movies, TV shows, or episodes by title.  
+     [`https://www.omdbapi.com/?apikey=7956112a&s=${value}`](https://www.omdbapi.com/?apikey=7956112a&s=${value})  
+   - Pagination for managing large data sets.  
+     [`https://www.omdbapi.com/?apikey=7956112a&page=${page}`](https://www.omdbapi.com/?apikey=7956112a&page=${page})  
+   - View detailed information about movies and shows, including ratings and descriptions.  
+     [`https://www.omdbapi.com/?i=${Id}&apikey=7956112a`](https://www.omdbapi.com/?i=${Id}&apikey=7956112a)  
+   - Fully responsive design for both desktop and mobile users.  
+   - Integration with local storage for caching user data.
 
-6. # Usage  
-    1. Use the search bar to find your favorite movies.  
-       [`https://www.omdbapi.com/?apikey=7956112a&type=${type}`](https://www.omdbapi.com/?apikey=7956112a&type=${type})  
-        - Movies  
-        - Episodes  
-        - Series  
-    2. Click on a movie card to view detailed information.
+## 4. How to Use  
+   - The page will open with dummy data displayed.  
+   - Use the search bar to find your favorite movies, shows, or episodes.  
+     - Select a type (Movies, Episodes, Series) and enter text in the search input.  
+     - Click the search button to retrieve relevant data.  
+   - If no type is selected, the search will display data for all types.  
+   - Click on a movie card to view detailed information.
+   - You can give rating.
 
-7. # Technologies Used  
-    - React.js  
-    - Next.js  
-    - CSS for styling  
-    - Bootstrap for responsive and modern styling  
-    - OMDb API for data  
-    - Vercel for deployment (optional)
+## 5. Usage Examples  
+   - **Search by Type**  
+     [`https://www.omdbapi.com/?apikey=7956112a&type=${type}`](https://www.omdbapi.com/?apikey=7956112a&type=${type})  
+     - Movies  
+     - Episodes  
+     - Series  
+   - **Pagination Example**  
+     [`https://www.omdbapi.com/?apikey=7956112a&page=${page}`](https://www.omdbapi.com/?apikey=7956112a&page=${page})  
+   - **Detailed Information Example**  
+     [`https://www.omdbapi.com/?i=${Id}&apikey=7956112a`](https://www.omdbapi.com/?i=${Id}&apikey=7956112a)  
+
+## 6. Technologies Used  
+   - React.js  
+   - Next.js  
+   - CSS for styling  
+   - Bootstrap for responsive and modern UI  
+   - OMDb API for movie and show data  
+   - Local storage for data management  
+   - Vercel for deployment (optional)
