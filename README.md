@@ -64,21 +64,32 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
    The app features pagination to handle multiple data points and is built with Next.js and React.js.  
    Styling is handled using Bootstrap, ensuring a responsive and user-friendly experience.
-
 ## 3. Features  
    - **API for Search**  
-     [`https://www.omdbapi.com/?apikey=7956112a&s=${value}&page=${page}&type=${type}`](https://www.omdbapi.com/?apikey=7956112a&s=${value}&page=${page}&type=${type})  
+     [https://www.omdbapi.com/?apikey=7956112a&s=value&page=page&type=type](https://www.omdbapi.com/?apikey=7956112a&s=value&page=page&type=type)  
+     *(Replace `value`, `page`, and `type` with the respective search term, page number, and type: movie, series, or episode.)*
+
    - **API for Title**  
-     [`https://www.omdbapi.com/?i=${tt1099212}&apikey=7956112a`](https://www.omdbapi.com/?i=${tt1099212}&apikey=7956112a)  
+     [https://www.omdbapi.com/?i=tt1099212&apikey=7956112a](https://www.omdbapi.com/?i=tt1099212&apikey=7956112a)  
+     *(Replace `tt1099212` with the IMDb ID of the movie or show.)*
+
    - Browse popular movies and shows.  
+
    - Search for movies, TV shows, or episodes by title.  
-     [`https://www.omdbapi.com/?apikey=7956112a&s=${Half Girlfriend}`](https://www.omdbapi.com/?apikey=7956112a&s=${Half Girlfriend})  
+     [https://www.omdbapi.com/?apikey=7956112a&s=Half%20Girlfriend](https://www.omdbapi.com/?apikey=7956112a&s=Half%20Girlfriend)  
+     *(Replace `Half%20Girlfriend` with the title you want to search for.)*
+
    - Pagination for managing large data sets.  
-     [`https://www.omdbapi.com/?apikey=7956112a&page=${page}`](https://www.omdbapi.com/?apikey=7956112a&page=${page})  
+     [https://www.omdbapi.com/?apikey=7956112a&page=page](https://www.omdbapi.com/?apikey=7956112a&page=page)  
+     *(Replace `page` with the page number to fetch results for that page.)*
+
    - View detailed information about movies and shows, including ratings and descriptions.  
-     [`https://www.omdbapi.com/?t=${The Pursuit of Happyness}&apikey=7956112a`](https://www.omdbapi.com/?t=${The Pursuit of Happyness}&apikey=7956112a)   
+     [https://www.omdbapi.com/?t=The%20Pursuit%20of%20Happyness&apikey=7956112a](https://www.omdbapi.com/?t=The%20Pursuit%20of%20Happyness&apikey=7956112a)  
+     *(Replace `The%20Pursuit%20of%20Happyness` with the title of the movie or show.)*
+
    - Fully responsive design for both desktop and mobile users.  
-   - Integration with local storage for caching user data.
+
+   - Integration with local storage for caching user data.  
 
 ## 4. How to Use  
    - The page will open with dummy data displayed.  
@@ -111,6 +122,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## 7. Repository  `Visit the 
   - [GitHub Repository](https://github.com/PoojaMeena99/movie-show-app) to explore the codebase.
-  
+
 ## Live Demo  
 Check out the app in action: [Live Demo](https://movie-show-app-sage.vercel.app)
