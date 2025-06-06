@@ -1,6 +1,6 @@
 import MovieItem from "./movie_item";
 
-function Movie_panel({ data, handleClickGetId }) {
+function Movie_panel({ data, handleClickGetId}) {
   if (data.length === 1 && data[0].message) {
     return (
       <div className="no-results">
@@ -18,6 +18,7 @@ function Movie_panel({ data, handleClickGetId }) {
           </div>
         </div>
       ))}
+      {/* <button onClick={()=> fetchMoreData()}>more data should be display this screen</button> */}
     </div>
   );
 }

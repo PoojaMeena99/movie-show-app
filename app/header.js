@@ -8,7 +8,7 @@ function Header({ createCard }) {
         Movie & Show App
       </div>
       <div className='col-8'>
-        <Search_bar createCard={createCard} />
+        <Search_bar createCard = {createCard} />
       </div>
     </div>
 

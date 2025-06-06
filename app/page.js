@@ -1,7 +1,7 @@
 "use client";
-import { React, useState } from "react";
-import HardCodeData from "./movies_data";
-import Header from "./header.js";
+import { useState } from "react";
+import HardCodeData from './movies_data.json';
+import Header from "./header";
 import Movie_panel from "./movie_panel";
 import Pagination from './pagination';
 import DetailPage from './details_page';
@@ -11,10 +11,11 @@ function Page() {
   const [currentPage, setCurrentPage] = useState(1);
   const [checkMovieSerialId, setCheckMovieSerialId] = useState(null);
 
-
-  function createCard(searchedFetchedData, inputSearch) {
-    if (inputSearch.trim().length >= 2) {
-      if (searchedFetchedData.length === 0) {
+  const createCard = function (searchedFetchedData, inputSearchTerm) {
+    console.log(searchedFetchedData, "searchedFetchedData - parse data")
+    setCurrentPage(1);
+    if (inputSearchTerm.trim().length >= 2) {
+      if (!searchedFetchedData || searchedFetchedData.length === 0) {
         setData([{ message: "Movie/Serial is not found" }]);
       } else {
         setData(searchedFetchedData);
@@ -24,11 +25,11 @@ function Page() {
     }
   }
 
-  const handleClickGetId = (movieSerialId) => {
+  const handleClickGetId = function (movieSerialId) {
     setCheckMovieSerialId(movieSerialId);
   };
 
-  let perPageData = 9;
+  const perPageData = 9;
   const currentPageDisplay = data.slice((currentPage - 1) * perPageData, currentPage * perPageData);
   const totalPages = Math.ceil(data.length / perPageData);
 
@@ -46,11 +47,19 @@ function Page() {
 
   let componentRender;
   if (checkMovieSerialId) {
-    componentRender = <DetailPage checkMovieSerialId={checkMovieSerialId} setCheckMovieSerialId={setCheckMovieSerialId} />;
+    componentRender = (
+      <DetailPage
+        checkMovieSerialId={checkMovieSerialId}
+        setCheckMovieSerialId={setCheckMovieSerialId}
+      />
+    );
   } else {
     componentRender = (
       <>
-        <Movie_panel data={currentPageDisplay} handleClickGetId={handleClickGetId} />
+        <Movie_panel
+          data={currentPageDisplay}
+          handleClickGetId={handleClickGetId}
+        />
         <Pagination
           handlePrevious={handlePrevious}
           handleNext={handleNext}
