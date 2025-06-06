@@ -59,6 +59,7 @@ function Search_bar({ createCard }) {
         }
 
         createCard(temporaryData, value);
+        console.log("temporaryData", temporaryData);
     }
 
     const buttonClass = isButtonClicked ? "search-button clicked" : "search-button";
